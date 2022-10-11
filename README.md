@@ -3,7 +3,7 @@
 Copyright (c) 2022 Basis Technology, Inc.
 
 This dataset has been released alongside "Improving Few-Shot Domain Transfer for 
-Named Entity Disambiguation with Pattern Exploitation" by (Hidden during review).
+Named Entity Disambiguation with Pattern Exploitation" by BasisTech.
 
 The dataset is split into NEDMed-train and NEDMed-dev. Each file contains a single JSON document,
 which has been annotated with entities. The `documentMetadata` field contains
