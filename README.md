@@ -1,6 +1,6 @@
 # NEDMed Dataset
 
-Copyright (c) 2022 Basis Technology, Inc.
+Copyright &copy; 2022 Basis Technology Corporation.
 
 This dataset has been released alongside "Improving Few-Shot Domain Transfer for 
 Named Entity Disambiguation with Pattern Exploitation" by BasisTech.
@@ -42,7 +42,16 @@ contains the English Wikipedia page ID (as of January 2022) and Wikidata QID. Th
 which entry in the candidate list is the zero-indexed correct answer (which can also be deduced from the 
 QID in the `entityId` field), or -1 if the candidate is not in the list.
 
-For license information, please see LICENSE.
+# Data Sources
+
+The raw (pre-annotated) data consists of mental health news articles collected from [Wikinews](https://en.wikinews.org) and [The Conversation](https://theconversation.com/us).
+
+# License Information
+
+The raw data (found in the `data` field of each JSON object) which has been annotated is released under [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/) 
+(for data from Wikinews) and [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) (for data from The Conversation) licenses.
+Each JSON file contains the license of the raw data in the `documentMetadata.license` field. The annotations collected by BasisTech
+are released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), as specified in the `LICENSE` file.
 
 # Citing
 ```
